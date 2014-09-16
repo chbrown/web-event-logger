@@ -38,10 +38,13 @@ var keys = {
   88: {"string":"x","shift":"X"},
   89: {"string":"y","shift":"Y"},
   90: {"string":"z","shift":"Z"},
-  186: {"string":";","shift":":"},
-  187: {"string":"=","shift":"+"},
+  186: {"string":";","shift":":"}, // WebKit
+  59:  {"string":";","shift":":"}, // Mozilla
+  187: {"string":"=","shift":"+"}, // WebKit
+  61:  {"string":"=","shift":"+"}, // Mozilla
   188: {"string":",","shift":"<"},
-  189: {"string":"-","shift":"_"},
+  189: {"string":"-","shift":"_"}, // WebKit
+  173: {"string":"-","shift":"_"}, // Mozilla
   190: {"string":".","shift":">"},
   191: {"string":"/","shift":"?"},
   192: {"string":"`","shift":"~"},
