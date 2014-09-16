@@ -49,7 +49,7 @@ var keys = {
   191: {"string":"/","shift":"?"},
   192: {"string":"`","shift":"~"},
   219: {"string":"[","shift":"{"},
-  220: {"string":"|","shift":"\\"},
+  220: {"string":"\\","shift":"|"},
   221: {"string":"]","shift":"}"},
   222: {"string":"'","shift":"\""},
 };
