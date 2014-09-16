@@ -2,9 +2,6 @@
   "version": "0.0.1",
   "staticPattern": "static/lib/{file}",
   "staticDependencies": {
-    "angular": "*",
-    "jquery": "*",
-    "lo-dash": "*",
-    "ng-storage": "*"
+    "jquery": "*"
   }
 }
