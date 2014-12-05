@@ -4,20 +4,19 @@
   <title>web-event-logger/keys</title>
   <link href="./static/site.css" rel="stylesheet" type="text/css" />
   <!-- vendor -->
-  <script src="./static/lib/lodash.min.js"></script>
   <script src="./static/lib/jquery.min.js"></script>
   <!-- local app -->
+  <script src="./loggedinput.js"></script>
   <script src="./static/app.js"></script>
 </head>
 <body>
   <div class="progress">Trial #</div>
 
-  <div class="text" id="prototype"></div>
+  <div class="text" id="sentence"></div>
 
   <div class="text">
-    <span id="input" style="color: #00A44C; white-space: pre-wrap;"></span><span style="border-left: 1px solid black">&nbsp;</span>
+    <span class="input"></span><span class="caret">&nbsp;</span>
   </div>
-
 
   <div class="log">
     <h3>Log</h3>
